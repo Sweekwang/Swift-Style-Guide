@@ -1,5 +1,5 @@
-import XCTest
 @testable import SwiftStyleGuide
+import XCTest
 
 final class SwiftStyleGuideTests: XCTestCase {
     func testExample() throws {
