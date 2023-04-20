@@ -22,7 +22,7 @@ let package = Package(
             name: "SwiftStyleGuide",
             dependencies: [
                 .product(name: "SwiftFormat", package: "SwiftFormat"),
-                .product(name: "SwiftLint", package: "SwiftLint")
+                .product(name: "SwiftLintPlugin", package: "SwiftLint")
             ]),
         .testTarget(
             name: "SwiftStyleGuideTests",
